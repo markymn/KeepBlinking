@@ -42,7 +42,7 @@ class BlinkDetectionGUI:
         self.explanation.pack(pady=(0, 10))
 
         # Single Start/Stop Button
-        self.toggle_button = tk.Button(root, text="▶", command=self.toggle_detection, bg="gray", fg="white", font=("Roboto", 22, "bold"), width=6)
+        self.toggle_button = tk.Button(root, text="▶", command=self.toggle_detection, bg="#333333", fg="white", font=("Roboto", 22, "bold"), width=3, bd=0, highlightthickness=0)
         self.toggle_button.pack(pady=20)
 
         self.running = False
