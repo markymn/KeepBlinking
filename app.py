@@ -141,7 +141,6 @@ class BlinkDetectionGUI:
                         blink, avg_ear = is_blink(left_eye, right_eye)
                         current_time = time.time()
                         if blink and not self.blink_state and (current_time - self.last_blink_time) > self.cooldown_seconds:
-                            print("Blink detected!")
                             self.last_blink_time = current_time
                             self.blink_state = True
                         elif not blink:

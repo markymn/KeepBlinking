@@ -56,13 +56,11 @@ def run_blink_detection(headless=False):
                 forehead_x, forehead_y = int(forehead_lm.x * frame.shape[1]), int(forehead_lm.y * frame.shape[0])
 
                 blink, avg_ear = is_blink(left_eye, right_eye)
-                print(f"EAR: {avg_ear:.3f}", end="\r")
 
                 current_time = time.time()
                 if blink and not blink_state and (current_time - last_blink_time) > cooldown_seconds:
                     blink_count += 1
                     last_blink_time = current_time
-                    print(f"\n👁️ Blink detected! Total: {blink_count}")
                     blink_state = True
                 elif not blink:
                     blink_state = False
