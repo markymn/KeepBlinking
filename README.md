@@ -19,7 +19,7 @@ You should be blinking at least **15 times a minute**. This program will remind 
 ## How It Works
 
 - Uses your webcam to detect blinks in real time.
-- If you haven't blinked in 6 seconds, you'll get a visual reminder.
+- If you haven't blinked in 4 seconds, you'll get a visual reminder.
 - The app runs quietly in the background with a simple, modern interface.
 
 ## Technologies Used
