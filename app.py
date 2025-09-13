@@ -34,7 +34,7 @@ class BlinkDetectionGUI:
 
         self.explanation = tk.Label(
             root,
-            text="You should be blinking 10 times a minute.\nOr in other words, once every 6 seconds.\nI'll remind you.",
+            text="You should be blinking 15 times a minute.\nOr in other words, once every 4 seconds.\nI'll remind you.",
             font=("Roboto", 10),
             fg="white",
             bg="black"
@@ -147,7 +147,7 @@ class BlinkDetectionGUI:
                             self.blink_state = False
 
                 # Show/hide blink warning bars if needed
-                if time.time() - self.last_blink_time > 6:
+                if time.time() - self.last_blink_time > 4:
                     self.show_blink_bars()
                 else:
                     self.hide_blink_bars()
