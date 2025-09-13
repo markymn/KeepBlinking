@@ -14,7 +14,7 @@ Studies show that when we use screens, we blink far less than normal. Not blinki
 - **Watery eyes:** As a reflex, eyes may water to try and compensate for dryness.
 - **Red eyes:** Irritation can cause blood vessels in the eyes to dilate, leading to redness.
 
-You should be blinking at least **15 times a minute**. This program will remind you to blink if it notices you haven't blinked in 4 seconds, helping guarantee you blink at least 10 times per minute.
+You should be blinking at least **15 times a minute**. This program will remind you to blink if it notices you haven't blinked in 4 seconds, helping guarantee you blink at least 15 times per minute.
 
 ## How It Works
 
